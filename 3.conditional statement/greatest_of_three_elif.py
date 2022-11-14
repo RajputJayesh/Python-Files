@@ -1,0 +1,16 @@
+'''
+elif => else if
+Gretest of the three number using logical operator.
+
+'''
+
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+c=int(input("Enter third number: "))
+
+if a>b and a>c:
+    print(a," is greater")
+elif b>a and b>c:
+    print(b," is greater")
+elif c>a and c>b:
+    print(c," is greater")
